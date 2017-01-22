@@ -133,3 +133,12 @@ code {
 	background-color: #f5f5f5;
 	color: #555;
 }
+.progress {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+	background: none;
+}
