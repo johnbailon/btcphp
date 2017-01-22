@@ -1,0 +1,135 @@
+/*
+ * Author: Carlos Alvarez, modified by JTB
+ *
+ * Theme Name: Basic
+ * URL: http://blacktie.co
+ * Version: 1.0
+ */
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+	margin: 0;
+	padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+	color: #5a5a5a;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 150pt;
+	font-size: 10vw;
+	font-weight: 300;
+
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1vw;
+}
+
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666;
+	margin-top: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a, a:visited {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .2s linear, color .2s linear;
+	-moz-transition: background-color .2s linear, color .2s linear;
+	-o-transition: background-color .2s linear, color .2s linear;
+	-ms-transition: background-color .2s linear, color .2s linear;
+	transition: background-color .2s linear, color .2s linear;
+	color: #fff;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#ddd;
+}
+
+/* HEADER SECTION */
+#h {
+	background-color: #222;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+#h .logo {
+	margin-top: 30px;
+	margin-left: 40px;
+	padding-bottom: 150px;
+}
+
+#h .logo h2{
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+}
+
+/* GREY SECTION */
+#g {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #f5f5f5;
+}
+
+code {
+	background-color: #f5f5f5;
+	color: #555;
+}
