@@ -17,7 +17,7 @@ $(window).focus(function() {
 function poll() {
 	if (pollTimer == null) {
 		i = 0;
-		$.get( "http://localhost:3050/ticker", function(data) {
+		$.get( "http://api.btcphp.com/ticker", function(data) {
 			if (ask != data.ask) {
 				$("#rate").fadeOut(500, function() {
 					$("#rate").text(numeral(data.ask).format('0,0.00')).fadeIn(500);
