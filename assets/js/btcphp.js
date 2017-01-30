@@ -1,5 +1,5 @@
 var pollTimer = null;
-var timerDelay = 10000;
+var timerDelay = 30000;
 var ask = 0;
 var timestamp = 0;
 
